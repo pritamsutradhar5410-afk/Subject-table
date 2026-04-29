@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Semester Subjects Table</title>
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1509062522246-3755977927d7') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.6);
+    min-height:100vh;
+    padding:40px;
+}
+
+h1{
+    color:white;
+    text-align:center;
+}
+
+table{
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th,td{
+    border:1px solid black;
+    padding:12px;
+    text-align:left;
+}
+
+th{
+    background:#007bff;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+</style>
+</head>
+
+<body>
+<div class="overlay">
+
+<h1>Semester Example Subjects</h1>
+
+<table>
+<tr>
+<th>Semester</th>
+<th>Example Subjects</th>
+</tr>
+
+<tr>
+<td>1st</td>
+<td>English + History + Political Science + Environmental Studies</td>
+</tr>
+
+<tr>
+<td>2nd</td>
+<td>Hindi + History + Political Science + Communication Skills</td>
+</tr>
+
+<tr>
+<td>3rd</td>
+<td>History + Political Science + Computer Skills</td>
+</tr>
+
+<tr>
+<td>4th</td>
+<td>History + Political Science + Entrepreneurship</td>
+</tr>
+
+<tr>
+<td>5th</td>
+<td>Modern History + Indian Politics + Sociology + E-Commerce</td>
+</tr>
+
+<tr>
+<td>6th</td>
+<td>World History + Public Administration + Psychology + Skill Course</td>
+</tr>
+
+</table>
+
+</div>
+</body>
+</html>
